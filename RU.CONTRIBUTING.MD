@@ -28,7 +28,7 @@ git update-index --chmod=+x containers/ваш-скрипт.sh
 
 **Живые туннель-тесты не гоняются на каждый пуш.** Им нужен `/dev/net/tun`, привилегированные контейнеры и минут сорок, поэтому они запускаются вручную (`workflow_dispatch`) плюс по расписанию раз в неделю. Если ваше изменение трогает образы, entrypoint или тестовые скрипты — перед «готово» запустите «Live tunnel tests» руками: юнит-тесты хендшейк не увидят.
 
-**Стиль страницы статуса генерируется.** `containers/status-www/architect.css` извлекается из кита [репозитория Architect](https://github.com/Vadim-Khristenko/Any-Tech-ARCHITECT), чтобы страница выглядела родной сестрой сайта. Правите кит там, затем:
+**Стиль страницы статуса генерируется.** `containers/status-www/architect.css` извлекается из кита [репозитория Architect](https://github.com/VAIPROG/Any-Tech-ARCHITECT), чтобы страница выглядела родной сестрой сайта. Правите кит там, затем:
 
 ```bash
 node containers/status-www/extract-kit.js

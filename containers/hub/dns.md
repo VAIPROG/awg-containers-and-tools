@@ -1,6 +1,6 @@
 # AmneziaWG DNS: a resolver that only answers through the tunnel
 
-> **Unofficial community build.** Not affiliated with, endorsed by or supported by AmneziaVPN. Report problems at [the project repository](https://github.com/Vadim-Khristenko/awg-containers-and-tools/issues), not upstream.
+> **Unofficial community build.** Not affiliated with, endorsed by or supported by AmneziaVPN. Report problems at [the project repository](https://github.com/VAIPROG/awg-containers-and-tools/issues), not upstream.
 
 A small `unbound` image meant to sit beside an [AmneziaWG server](https://hub.docker.com/u/vaiprog) on a private bridge, at the address AmneziaVPN's own clients already expect, with lists, your own records, forwarded zones and a resolver chain.
 
@@ -11,7 +11,7 @@ A small `unbound` image meant to sit beside an [AmneziaWG server](https://hub.do
 | Size | ~20 MB |
 | Address | `172.29.172.254` |
 | Platforms | `linux/amd64`, `linux/arm64` |
-| Source | [Vadim-Khristenko/awg-containers-and-tools](https://github.com/Vadim-Khristenko/awg-containers-and-tools) |
+| Source | [VAIPROG/awg-containers-and-tools](https://github.com/VAIPROG/awg-containers-and-tools) |
 | Licence | MIT |
 
 ## The point
@@ -69,7 +69,7 @@ DNS = 172.29.172.254
 - Keeps Firefox (and, if you ask, iCloud Private Relay) from resolving around it.
 - Picks up every change within seconds without a restart, and checks every generated config before using it, so a bad file cannot take it down.
 
-Every directory, file and variable is described in the repository's [containers/README.md](https://github.com/Vadim-Khristenko/awg-containers-and-tools/blob/main/containers/README.md#dns).
+Every directory, file and variable is described in the repository's [containers/README.md](https://github.com/VAIPROG/awg-containers-and-tools/blob/main/containers/README.md#dns).
 
 ## Verifying the isolation
 

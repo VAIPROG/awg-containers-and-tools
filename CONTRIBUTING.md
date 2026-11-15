@@ -28,7 +28,7 @@ git update-index --chmod=+x containers/your-script.sh
 
 **Live tunnel tests do not run on every push.** They need `/dev/net/tun`, privileged containers and about forty minutes, so they are `workflow_dispatch` plus a weekly schedule. If your change touches the images, the entrypoint or the test scripts, trigger "Live tunnel tests" by hand before calling it done — the unit tests cannot see a handshake.
 
-**The status page's stylesheet is generated.** `containers/status-www/architect.css` is extracted from the [Architect repository](https://github.com/Vadim-Khristenko/Any-Tech-ARCHITECT)'s kit so the page renders as the site's sibling. Edit the kit over there, then:
+**The status page's stylesheet is generated.** `containers/status-www/architect.css` is extracted from the [Architect repository](https://github.com/VAIPROG/Any-Tech-ARCHITECT)'s kit so the page renders as the site's sibling. Edit the kit over there, then:
 
 ```bash
 node containers/status-www/extract-kit.js

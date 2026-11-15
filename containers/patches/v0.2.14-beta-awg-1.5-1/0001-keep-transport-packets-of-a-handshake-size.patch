@@ -1,4 +1,4 @@
-From: Vadim Khristenko <vadim.khristenko@gmail.com>
+From: VAI_PROG (Vadim) <architect@vai-rice.space>
 Subject: [PATCH] device: keep transport packets that line up with a handshake size
 
 ProcessAWGPacket returned an error when a packet of a handshake message's

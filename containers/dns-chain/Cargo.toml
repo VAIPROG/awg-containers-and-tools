@@ -4,7 +4,7 @@ version = "0.5.5"
 edition = "2024"
 rust-version = "1.90"
 license = "MIT"
-repository = "https://github.com/Vadim-Khristenko/awg-containers-and-tools"
+repository = "https://github.com/VAIPROG/awg-containers-and-tools"
 description = "Asks a list of DNS upstreams in order and moves on when one cannot answer"
 
 # No dependencies on purpose: it is built inside the resolver image's own

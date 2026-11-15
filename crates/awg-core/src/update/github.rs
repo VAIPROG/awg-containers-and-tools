@@ -4,7 +4,7 @@ use super::version::SemVer;
 use crate::{Error, Result};
 
 pub const RELEASES_URL: &str =
-    "https://api.github.com/repos/Vadim-Khristenko/awg-containers-and-tools/releases/latest";
+    "https://api.github.com/repos/VAIPROG/awg-containers-and-tools/releases/latest";
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Release {
@@ -170,7 +170,7 @@ mod tests {
     use super::*;
 
     const RELEASE: &str = r#"{
-      "html_url": "https://github.com/Vadim-Khristenko/awg-containers-and-tools/releases/tag/v0.1.0",
+      "html_url": "https://github.com/VAIPROG/awg-containers-and-tools/releases/tag/v0.1.0",
       "tag_name": "v0.1.0",
       "name": "v0.1.0",
       "draft": false,

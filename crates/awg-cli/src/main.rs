@@ -23,7 +23,7 @@ use awg_core::{profile, saved};
 use i18n::{Key as K, Lang, t};
 
 const ARCHITECT_URL: &str = "https://architect.vai-rice.space";
-const SOURCES_URL: &str = "https://github.com/Vadim-Khristenko/awg-containers-and-tools";
+const SOURCES_URL: &str = "https://github.com/VAIPROG/awg-containers-and-tools";
 
 fn main() {
     let args: Vec<String> = std::env::args().skip(1).collect();

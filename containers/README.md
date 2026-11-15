@@ -1,9 +1,9 @@
 # AmneziaWG containers: 1.0, 1.5, 2.0, 3.0, 3.1
 
 Self-hosted AmneziaWG server/client images, a tunnel-only resolver and the
-tunnel's own pages. Unofficial: a community build by Vadim Khristenko
+tunnel's own pages. Unofficial: a community build by VAI_PROG (Vadim)
 (VAI_PROG), not affiliated with, endorsed by or supported by AmneziaVPN.
-Problems with these images belong in [this project's tracker](https://github.com/Vadim-Khristenko/awg-containers-and-tools),
+Problems with these images belong in [this project's tracker](https://github.com/VAIPROG/awg-containers-and-tools),
 not in theirs.
 
 | file | what it does |
@@ -72,9 +72,9 @@ an operator actually asks without anyone having to remember what a tag meant:
 $ docker inspect vaiprog/amnezia-wg-15 --format '{{json .Config.Labels}}' | jq
 {
   "org.opencontainers.image.title":         "AmneziaWG 1.5 node (unofficial)",
-  "org.opencontainers.image.authors":       "Vadim Khristenko (VAI_PROG)",
+  "org.opencontainers.image.authors":       "VAI_PROG (Vadim)",
   "org.opencontainers.image.licenses":      "MIT",
-  "org.opencontainers.image.source":        "https://github.com/Vadim-Khristenko/awg-containers-and-tools",
+  "org.opencontainers.image.source":        "https://github.com/VAIPROG/awg-containers-and-tools",
   "org.opencontainers.image.version":       "v0.2.14-beta-awg-1.5-1",
   "org.opencontainers.image.created":       "2026-07-28T16:54:47Z",
   "org.opencontainers.image.base.name":     "docker.io/library/alpine:3.24",

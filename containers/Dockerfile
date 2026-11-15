@@ -72,11 +72,11 @@ ARG INPUTS_DIGEST=
 # someone comparing a running container against a CVE needs to see.
 LABEL org.opencontainers.image.title="AmneziaWG ${AWG_VERSION} node (unofficial)" \
       org.opencontainers.image.description="Self-hosted AmneziaWG ${AWG_VERSION} server/client on amneziawg-go ${AWG_GO_VERSION}. UNOFFICIAL community build — not affiliated with, endorsed by or supported by AmneziaVPN; report problems to this project, not to them." \
-      org.opencontainers.image.authors="Vadim Khristenko (VAI_PROG)" \
-      org.opencontainers.image.vendor="Vadim Khristenko (VAI_PROG)" \
+      org.opencontainers.image.authors="VAI_PROG (Vadim)" \
+      org.opencontainers.image.vendor="VAI_PROG (Vadim)" \
       org.opencontainers.image.licenses="MIT" \
-      org.opencontainers.image.source="https://github.com/Vadim-Khristenko/awg-containers-and-tools" \
-      org.opencontainers.image.url="https://github.com/Vadim-Khristenko/awg-containers-and-tools" \
+      org.opencontainers.image.source="https://github.com/VAIPROG/awg-containers-and-tools" \
+      org.opencontainers.image.url="https://github.com/VAIPROG/awg-containers-and-tools" \
       org.opencontainers.image.documentation="https://architect.vai-rice.space" \
       org.opencontainers.image.version="${AWG_GO_VERSION}" \
       org.opencontainers.image.created="${BUILD_DATE}" \

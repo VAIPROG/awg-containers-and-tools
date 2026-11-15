@@ -111,7 +111,7 @@ pub const FIAT_METHODS: [FiatMethod; 3] = [
 
 pub const PORTFOLIO_URL: &str = "https://vai-rice.space";
 pub const ARCHITECT_URL: &str = "https://architect.vai-rice.space";
-pub const SOURCES_URL: &str = "https://github.com/Vadim-Khristenko/awg-containers-and-tools";
+pub const SOURCES_URL: &str = "https://github.com/VAIPROG/awg-containers-and-tools";
 
 // ─────────────────────────────────────────────────────────────────── bech32
 

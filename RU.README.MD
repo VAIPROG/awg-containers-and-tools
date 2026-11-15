@@ -61,7 +61,7 @@ Configuration parsing error
 ### Сервер через Docker Compose
 
 ```bash
-git clone https://github.com/Vadim-Khristenko/awg-containers-and-tools
+git clone https://github.com/VAIPROG/awg-containers-and-tools
 cd awg-containers-and-tools/containers
 ```
 
@@ -388,6 +388,6 @@ awg-tool donate
 
 MIT, см. [LICENSE](LICENSE).
 
-Логика генерации параметров общая с [Any Tech ARCHITECT](https://github.com/Vadim-Khristenko/Any-Tech-ARCHITECT). Совместный релиз Any Tech ARCHITECT и VAIEXIA.
+Логика генерации параметров общая с [Any Tech ARCHITECT](https://github.com/VAIPROG/Any-Tech-ARCHITECT). Совместный релиз Any Tech ARCHITECT и VAIEXIA.
 
-Автор: Vadim Khristenko (VAI_PROG).
+Автор: VAI_PROG (Vadim).

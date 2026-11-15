@@ -61,7 +61,7 @@ The last 1.5 tag drops every transport packet that happens to be the size of a h
 ### Run a server with Docker Compose
 
 ```bash
-git clone https://github.com/Vadim-Khristenko/awg-containers-and-tools
+git clone https://github.com/VAIPROG/awg-containers-and-tools
 cd awg-containers-and-tools/containers
 ```
 
@@ -386,6 +386,6 @@ Prints the same cards, recurring options and crypto addresses that [Any Tech ARC
 
 MIT, see [LICENSE](LICENSE).
 
-Parameter-generation logic is shared with [Any Tech ARCHITECT](https://github.com/Vadim-Khristenko/Any-Tech-ARCHITECT). A joint release of Any Tech ARCHITECT and VAIEXIA.
+Parameter-generation logic is shared with [Any Tech ARCHITECT](https://github.com/VAIPROG/Any-Tech-ARCHITECT). A joint release of Any Tech ARCHITECT and VAIEXIA.
 
-Built by Vadim Khristenko (VAI_PROG).
+Built by VAI_PROG (Vadim).
